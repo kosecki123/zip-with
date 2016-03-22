@@ -15,7 +15,7 @@
         (and (>= val1 r1) (<= val1 r2))))
     result (zip-with coll1 coll2 pred)
     first-five (take 5 result)
-    expected-five [0 nil 20 nil 40]
+    expected-five [[0 0] [10 nil] [20 20] [30 nil] [40 40]]
     ]
   (testing "Checking first five elements from result"
     (is (= first-five expected-five)))))
