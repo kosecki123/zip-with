@@ -1,10 +1,10 @@
 # zip-with
 
-A Clojure library designed to ... well, that part is up to you.
+A Clojure library designed to zip two collections by using predicate for matching
 
 ## Usage
 
-FIXME
+(zip-with coll1 coll2 pred)
 
 ## License
 
