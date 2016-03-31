@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/kosecki123/zip-with.svg?branch=master)](https://travis-ci.org/kosecki123/zip-with)
+
 # zip-with
 
 A Clojure library designed to zip two collections by using predicate for matching
